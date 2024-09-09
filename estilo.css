@@ -1,0 +1,73 @@
+/* Estilos básicos e responsivos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ffe6f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #e60073;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button#yesBtn {
+    background-color: #ff66b3;
+    color: white;
+}
+
+button#noBtn {
+    background-color: #cccccc;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#responseMessage {
+    font-size: 1.2em;
+    color: #800040;
+}
